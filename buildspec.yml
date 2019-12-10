@@ -12,9 +12,6 @@ phases:
   build:
       commands:
           - 'npm run build'
-  post_build:
-      commands:
-          - 'ls'
 artifacts:
   base-directory: public
   files:
