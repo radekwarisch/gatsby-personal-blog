@@ -6,7 +6,6 @@ import { Container } from './header.css';
 import Title from 'components/title';
 import Nav from 'components/header/nav';
 
-// Example of a component-specific page transition
 const AnimatedContainer = posed.div({
   enter: {
     y: 0,
@@ -22,20 +21,21 @@ const AnimatedContainer = posed.div({
   },
 });
 
-const Header = ({ title }) => (
+const Header = ({ title, portfolio }) => (
   <AnimatedContainer>
     <Container>
       <Link to="/">
         <Title as="h1">{title}</Title>
       </Link>
 
-      <Nav />
+      <Nav portfolio={portfolio} />
     </Container>
   </AnimatedContainer>
 );
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,
+  portfolio: PropTypes.string.isRequired,
 };
 
 export default Header;

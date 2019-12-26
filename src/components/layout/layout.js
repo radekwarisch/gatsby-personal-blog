@@ -9,7 +9,10 @@ const Layout = ({ data, children }) => (
   <div>
     <GlobalStyle />
     <Head />
-    <Header title={data.site.siteMetadata.siteTitle} />
+    <Header
+      title={data.site.siteMetadata.siteTitle}
+      portfolio={data.aboutJson.github}
+    />
     {children}
   </div>
 );
@@ -27,6 +30,9 @@ const LayoutWithQuery = props => (
           siteMetadata {
             siteTitle
           }
+        }
+        aboutJson {
+          github
         }
       }
     `}

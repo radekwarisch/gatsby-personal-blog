@@ -1,5 +1,6 @@
 {
   "name": "static-folio",
+  "version": "0.1.0",
   "description": "Static blog served with Gatsby and Amazon S3",
   "license": "MIT",
   "author": "Radoslaw Warisch <r.warisch@gmail.com>",

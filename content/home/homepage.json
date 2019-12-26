@@ -2,18 +2,18 @@
   "title": "Home",
   "content": "intro.md",
   "gallery": [{
-    "title": "React Context",
-    "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "title": "Web/PWA Development",
+    "copy": "In any way.",
+    "image": "../images/gallery/static-folio_apps.png"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
+    "title": "Advertisement",
+    "copy": "Monetization is crucial.",
+    "image": "../images/gallery/static-folio_ads.jpg"
   },
   {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "Web Assembly",
+    "copy": "Learning Rust.",
+    "image": "../images/gallery/static-folio_rust.jpg"
   }]
 }
